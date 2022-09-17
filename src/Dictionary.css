@@ -1,1 +1,11 @@
-
+.search {
+  text-align: center;
+}
+.Dictionary label {
+  font-size: 14px;
+  display: block;
+}
+.Dictionary {
+  max-width: 960px;
+  margin: 0 auto;
+}

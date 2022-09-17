@@ -1,16 +1,17 @@
-import logo from "./sand volleyball.jpg";
+import logo from "./SheCodes.jpg";
 import "./Dictionary";
 import Dictionary from "./Dictionary";
+import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo img-fluid " alt="logo" />
+          <img src={logo} className="App-logo img-fluid " alt="SheCodes logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="manifest" />
         </main>
         <footer className="text-center">
           <small>Coded by C.Sneed</small>
