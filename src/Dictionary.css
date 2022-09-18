@@ -1,5 +1,6 @@
 .search {
   text-align: center;
+  display: block;
 }
 .Dictionary label {
   font-size: 14px;
@@ -8,4 +9,7 @@
 .Dictionary {
   max-width: 960px;
   margin: 0 auto;
+}
+.form {
+  text-align: center;
 }

@@ -1,5 +1,5 @@
 import logo from "./SheCodes.jpg";
-import "./Dictionary";
+
 import Dictionary from "./Dictionary";
 import "./App.css";
 
@@ -10,11 +10,21 @@ export default function App() {
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid " alt="SheCodes logo" />
         </header>
-        <main>
-          <Dictionary defaultKeyword="manifest" />
-        </main>
+
+        <Dictionary defaultKeyword="manifest" />
+
         <footer className="text-center">
-          <small>Coded by C.Sneed</small>
+          <small>
+            Coded by C.Sneed and is {""}
+            <a href="" target="_blank" rel="noopener noreferrer">
+              {" "}
+              open-sourced on Github{" "}
+            </a>{" "}
+            and{" "}
+            <a href="" target="_blank" rel="noopener noreferrer">
+              hosted on Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
