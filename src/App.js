@@ -16,7 +16,11 @@ export default function App() {
         <footer className="text-center">
           <small>
             Coded by C.Sneed and is {""}
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/Cjenae7/dictionary-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {" "}
               open-sourced on Github{" "}
             </a>{" "}
