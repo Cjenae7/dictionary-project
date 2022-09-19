@@ -3,13 +3,13 @@ import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
 
-export default function Dictionary() {
+export default function Dictionary(props) {
   let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState({});
 
   function handleResponse(response) {
     console.log(response.data[0]);
-    setResults(response.data[0]);
+    setResults(response.data[0].meanings[0].definitions[0].definition);
   }
 
   function search(event) {
@@ -27,7 +27,11 @@ export default function Dictionary() {
     <div className="Dictionary">
       <form onSubmit={search}>
         <label>What word do you want to look up?</label>
-        <input type="search" onChange={handleKeywordChange} />
+        <input
+          type="search"
+          placeholder="Search for a word"
+          onChange={handleKeywordChange}
+        />
       </form>
       <Results results={results} />
     </div>
