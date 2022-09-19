@@ -17,7 +17,7 @@ export default function App() {
           <small>
             Coded by C.Sneed and is {""}
             <a
-              href="https://github.com/Cjenae7/dictionary-project"
+              href="https://app.netlify.com/sites/luminous-truffle-31d4d9/overview"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -25,7 +25,11 @@ export default function App() {
               open-sourced on Github{" "}
             </a>{" "}
             and{" "}
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/Cjenae7/dictionary-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               hosted on Netlify
             </a>
           </small>
