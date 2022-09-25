@@ -10,10 +10,10 @@ export default function App() {
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid " alt="SheCodes logo" />
         </header>
-
-        <Dictionary defaultKeyword="manifest" />
-
-        <footer className="text-center">
+        <main>
+          <Dictionary defaultKeyword="manifest" />
+        </main>
+        <footer className="App-footer">
           <small>
             Coded by C.Sneed and is {""}
             <a
