@@ -11,7 +11,7 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid " alt="SheCodes logo" />
         </header>
         <main>
-          <Dictionary defaultKeyword="manifest" />
+          <Dictionary defaultKeyword="rain" />
         </main>
         <footer className="App-footer">
           <small>
